@@ -1,0 +1,42 @@
+.navigation{
+    background-color: rgb(105, 169, 252);
+    height: 100%;
+    border: solid 5px rgb(0, 79, 175);
+    position: sticky;
+    width: 100%;
+    
+   justify-items: center;
+    
+    
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+gap:20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0 25px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    white-space: nowrap; /* Чтобы слова не переносились */
+}
+.link:hover{
+    color: #610b00;
+}
+
+.link:global.active{
+    text-decoration: underline;
+}
+ul{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
